@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SocialNetworkComponent } from './social-network.component';
+import { LogoAPComponent } from './logo-ap.component';
 
-describe('SocialNetworkComponent', () => {
-  let component: SocialNetworkComponent;
-  let fixture: ComponentFixture<SocialNetworkComponent>;
+describe('LogoAPComponent', () => {
+  let component: LogoAPComponent;
+  let fixture: ComponentFixture<LogoAPComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SocialNetworkComponent ]
+      declarations: [ LogoAPComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SocialNetworkComponent);
+    fixture = TestBed.createComponent(LogoAPComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -7,6 +7,8 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { LogoArgProgComponent } from './imagenes/logo-arg-prog/logo-arg-prog.component';
 import { SocialNetworkComponent } from './imagenes/social-network/social-network.component';
 import { BannerComponent } from './banner/banner.component';
+import { RedesSocialesComponent } from './componentes/redes-sociales/redes-sociales.component';
+import { LogoAPComponent } from './componentes/logo-ap/logo-ap.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { BannerComponent } from './banner/banner.component';
     HeaderComponent,
     LogoArgProgComponent,
     SocialNetworkComponent,
-    BannerComponent
+    BannerComponent,
+    RedesSocialesComponent,
+    LogoAPComponent
   ],
   imports: [
     BrowserModule,

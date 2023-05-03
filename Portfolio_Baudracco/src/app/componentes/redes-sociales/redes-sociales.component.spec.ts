@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LogoArgProgComponent } from './logo-arg-prog.component';
+import { RedesSocialesComponent } from './redes-sociales.component';
 
-describe('LogoArgProgComponent', () => {
-  let component: LogoArgProgComponent;
-  let fixture: ComponentFixture<LogoArgProgComponent>;
+describe('RedesSocialesComponent', () => {
+  let component: RedesSocialesComponent;
+  let fixture: ComponentFixture<RedesSocialesComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LogoArgProgComponent ]
+      declarations: [ RedesSocialesComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LogoArgProgComponent);
+    fixture = TestBed.createComponent(RedesSocialesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
