@@ -1,4 +1,5 @@
-div{ 
-    background-color: black; 
-}
-app-social-network {float: right; margin-top: 25px;}
+<div>
+{background-color: black;}
+</div>
+app-social-network 
+{float: right; margin-top: 25px;}
